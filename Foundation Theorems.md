@@ -1,4 +1,4 @@
-# Foundation Theorems
+# Foundations
 
 Some topics not elaborated here:
 
