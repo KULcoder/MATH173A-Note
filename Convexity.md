@@ -62,7 +62,7 @@ $$
 A mapping $g: \mathbb R^n \to \mathbb R^n$ is called **monotone** if $\forall x, y \in \text{domain} (g)$
 
 $$
-<g(x) - g(y), x-y> \ge 0
+(g(x) - g(y))^T(x-y) \ge 0
 $$
 
 
