@@ -65,6 +65,7 @@ $$
 (g(x) - g(y))^T(x-y) \ge 0
 $$
 
+Basically, for all definitions about convex functions, move $\ge$ to $>$ will change them to **strictly convex functions**
 
 ## Convex Sets
 
@@ -81,12 +82,16 @@ $$
 
 
 
-## Strictly Convex Functions
-
-
-
 ## Strongly Convex Functions
 
+A function is **strongly convex** if $\exist c >0$ such that $\forall x, y \in \mathbb R^d$:
+$$
+F(y) \ge F(x) + \nabla F(x)^T(y-x) + \frac{1}{2} c||y-x||^2
+$$
 
+#### Equivalent Condition
 
-1. 
+A function if c-strongly convex for
+$$
+0 < c \le \min_x \{\lambda_\min(\nabla^2f(x))\}
+$$

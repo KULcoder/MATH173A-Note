@@ -29,3 +29,23 @@ $$
 - $\xi = ty + (1-t)x$ where $t\in (0, 1)$
 
 
+
+## Norms
+
+### Vector Norms
+
+**n-norm** to be
+$$
+||x||_n = (\sum_i |x_i|^n)^\frac{1}{n}
+$$
+
+### Matrix Norm
+
+$$
+||M|| = \max _{x\ne 0} \frac{||Mx||}{||x||}
+$$
+
+Consequence
+$$
+\forall z: ||Mz|| \le ||M|| \ ||z||
+$$
