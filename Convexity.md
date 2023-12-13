@@ -15,6 +15,7 @@ $$
 1. If $f: \mathbb R^n \to \mathbb R$ is continuously differentiable then $f$ is **convex** <u>if and only if</u>:
 
    $\forall x$ and $\forall y\in \mathbb R^n$, we have
+   
    $$
    f(y) \ge f(x) + \nabla f(x)^T (y-x)
    $$
@@ -32,6 +33,7 @@ $$
 #### Positive Semidefinite (PSD) and Positive Definite (PD)
 
 A matrix $A \in \mathbb R ^{n\times n}$ is **positive semidefinite** (PSD) <u>if and only if</u>:
+
 $$
 x^T Ax\ge 0 \ \ \ \ \forall x\in \mathbb R^n
 $$
@@ -39,6 +41,7 @@ $$
 ##### Equivalent Condition
 
 A matrix $A \in \mathbb R ^{n\times n}$ is **convex** <u>if and only if</u>:
+
 $$
 \lambda(A) \ge 0
 $$
@@ -56,6 +59,7 @@ $$
 #### Monotone Function
 
 A mapping $g: \mathbb R^n \to \mathbb R^n$ is called **monotone** if $\forall x, y \in \text{domain} (g)$
+
 $$
 <g(x) - g(y), x-y> \ge 0
 $$
@@ -64,6 +68,7 @@ $$
 ## Convex Sets
 
 A set $C$ is convex if $\forall x_1, x_2 \in C$ and $\forall \alpha\in [0, 1]$, we have
+
 $$
 \alpha x_1 + (1-\alpha)x_2 \in C
 $$
