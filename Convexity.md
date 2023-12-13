@@ -16,9 +16,9 @@ $$
 
    $\forall x$ and $\forall y\in \mathbb R^n$, we have
    
-   $$
-   f(y) \ge f(x) + \nabla f(x)^T (y-x)
-   $$
+$$
+f(y) \ge f(x) + \nabla f(x)^T (y-x)
+$$
 
 2. If $f$ is twice continuously differentiable, then $f$ is **convex** <u>if and only if</u>:
 
@@ -45,6 +45,7 @@ A matrix $A \in \mathbb R ^{n\times n}$ is **convex** <u>if and only if</u>:
 $$
 \lambda(A) \ge 0
 $$
+
 (All eigenvalues of A is greater or equal to 0)
 
 
