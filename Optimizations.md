@@ -142,7 +142,7 @@ $$
 f(x^{(t)}) - f(x^*) \le \frac{1}{2t \min_{s=1, ..., t}(\mu^{(s)})}
 $$
 
-And $ \min_{s=1, ..., t}(\mu^{(s)}) \ge \min (1, \frac{\beta}{L})$, which guarantees $f(x^{(t)}) - f(x^*) \le \frac{L}{2t\beta}$
+And $\min_{s=1, ..., t}(\mu^{(s)}) \ge \min (1, \frac{\beta}{L})$, which guarantees $f(x^{(t)}) - f(x^*) \le \frac{L}{2t\beta}$
 
 
 
