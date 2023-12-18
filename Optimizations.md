@@ -257,8 +257,8 @@ Conditions:
 
 - Let $f$ be twice continuously differentiable
 - suppose $x^*$ has $\nabla f(x^*) = 0$
-- $||\nabla^2f(x^*)^{-1}|| \le \frac{1}{h}$ for some h > 0
-- $||\nabla^2 f(x) - \nabla ^2 f(x^*)|| \le L||x-x^*|| \ \ \ \forall x$
+- $||\nabla^2f(x^\*)^{-1}|| \le \frac{1}{h}$ for some h > 0
+- $||\nabla^2 f(x) - \nabla ^2 f(x^\*)|| \le L||x-x^\*|| \ \ \ \forall x$
 - if $||x^{(0)} - x^*|| \le \frac{2h}{3L}$
 - and $x^{(t+1)} = x^{(t)} - [\nabla ^2 f(x^{(t)})]^{-1} \nabla f(x^{(t)})$
 
@@ -269,7 +269,7 @@ $$
 $$
 
 $$
-||x^{(t+1)} - x^*|| \le \frac{3L}{2h}||x^{(t)} - x^*||^2 \ \ \ \forall t
+||x^{(t+1)} - x^\*|| \le \frac{3L}{2h}||x^{(t)} - x^\*||^2 \ \ \ \forall t
 $$
 
 - Converges exponentially to the optimal
