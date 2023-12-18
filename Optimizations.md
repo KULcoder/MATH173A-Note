@@ -185,7 +185,7 @@ Conditions: $\Omega \subset \mathbb R^n$ is convex, closed, not empty, and if $x
 If $f: \mathbb R^n \to \mathbb R$ is L-smooth, convex, and $0 \le \mu \le \frac{1}{L}$, then GD gives
 
 $$
-f(x^{(t)}) - f(x^*) \le \frac{1}{2t\mu} ||x^{(0)} - x^*||
+f(x^{(t)}) - f(x^\*) \le \frac{1}{2t\mu} ||x^{(0)} - x^\*||
 $$
 
 (converge with $\frac{1}{t}$)
