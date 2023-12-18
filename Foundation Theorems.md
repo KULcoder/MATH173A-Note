@@ -35,6 +35,7 @@ $$
 ### Vector Norms
 
 **n-norm** to be
+
 $$
 ||x||_n = (\sum_i |x_i|^n)^\frac{1}{n}
 $$
@@ -46,6 +47,7 @@ $$
 $$
 
 Consequence
+
 $$
 \forall z: ||Mz|| \le ||M|| \ ||z||
 $$
