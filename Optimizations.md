@@ -36,6 +36,7 @@ $$
 ### L-Lipschitz
 
 A function $f: \Omega \to \mathbb R$ is **L-Lipschitz** if $\forall x, y \in \Omega$:
+
 $$
 |f(x) - f(y)| \le L||x-y||
 $$
@@ -87,9 +88,11 @@ Let $f$ be convex, differentiable, L-Lip. And let:
 Choose $\mu = \frac{R}{L\sqrt t}$
 
 Then
+
 $$
 f(\frac{1}{t}\sum^{t-1}_{s=0}x^{(s)}) - f(x^*) \le \frac{RL}{\sqrt t}
 $$
+
 (converge with $\frac{1}{\sqrt t}$)
 
 
@@ -134,9 +137,11 @@ $$
 #### Convergence of Backtracking Line Search
 
 For an L-smooth convex function with $\mu^{(t)}$ set by backtracking line search, GD gives
+
 $$
 f(x^{(t)}) - f(x^*) \le \frac{1}{2t \min_{s=1, ..., t}(\mu^{(s)})}
 $$
+
 And $ \min_{s=1, ..., t}(\mu^{(s)}) \ge \min (1, \frac{\beta}{L})$, which guarantees $f(x^{(t)}) - f(x^*) \le \frac{L}{2t\beta}$
 
 
@@ -152,6 +157,7 @@ $$
 #### Projection
 
 The projection of a point $x$ onto a set $\Omega$ is defined as the closest point in $\Omega$ to x, that is
+
 $$
 \Pi_\Omega (x) = \arg \min_{y\in \Omega} ||x-y||
 $$
@@ -177,9 +183,11 @@ Conditions: $\Omega \subset \mathbb R^n$ is convex, closed, not empty, and if $x
 ### Convergence of L-Smooth GD
 
 If $f: \mathbb R^n \to \mathbb R$ is L-smooth, convex, and $0 \le \mu \le \frac{1}{L}$, then GD gives
+
 $$
 f(x^{(t)}) - f(x^*) \le \frac{1}{2t\mu} ||x^{(0)} - x^*||
 $$
+
 (converge with $\frac{1}{t}$)
 
 ##### L-Smooth
@@ -193,6 +201,7 @@ A function is L-Smooth if its gradient is L-Lips
 (Check definitions in convexity)
 
 If $||\nabla^2F|| \le L$, $\alpha = \frac{1}{L}$
+
 $$
 F(x^{(t)}) - F(x*) \le (1 - \frac{c}{L})^t[F(x^{(0)})- F(x^*)] 
 $$
@@ -237,6 +246,7 @@ $$
 ## Newton’s Method
 
 Derived by Second Order Expansion of Taylor Theorem, taking derivative and set to zero
+
 $$
 x^{(t+1)} = x^{(t)} - [\nabla ^2 f(x^{(t)})]^{-1} \nabla f(x^{(t)})
 $$
@@ -253,6 +263,7 @@ Conditions:
 - and $x^{(t+1)} = x^{(t)} - [\nabla ^2 f(x^{(t)})]^{-1} \nabla f(x^{(t)})$
 
 We have
+
 $$
 ||x^{(t)} - x^*|| \le \frac{2h}{3L}  \ \ \ \ \forall t
 $$
@@ -275,6 +286,7 @@ $$
 ### Conjugate vectors
 
 A set of vectors $\{p_1, ..., p_n\}$ is conjugate w.r.t. A (symmetric, positive definite) if 
+
 $$
 p_i^TAp_j = 0 \ \ \ \ \ \forall i\ne j
 $$
