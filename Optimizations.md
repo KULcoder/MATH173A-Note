@@ -27,7 +27,8 @@ then $x^*$ is a local minimum
 
 #### Formal Statement on Global Solution
 
-Let $f: \mathbb R^n \to \mathbb R$ be convex and continuously differentiable, then $x^*$ is a <u>global minimum</u>, <u>if and only if</u>
+Let $f: \mathbb R^n \to \mathbb R$ be convex and continuously differentiable, then $x^\*$ is a <u>global minimum</u>, <u>if and only if</u>
+
 $$
 \nabla f(x^*) = 0
 $$
