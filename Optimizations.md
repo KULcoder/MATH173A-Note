@@ -256,7 +256,7 @@ $$
 Conditions:
 
 - Let $f$ be twice continuously differentiable
-- suppose $x^*$ has $\nabla f(x^*) = 0$
+- suppose $x^\*$ has $\nabla f(x^\*) = 0$
 - $||\nabla^2f(x^\*)^{-1}|| \le \frac{1}{h}$ for some h > 0
 - $||\nabla^2 f(x) - \nabla ^2 f(x^\*)|| \le L||x-x^\*|| \ \ \ \forall x$
 - if $||x^{(0)} - x^*|| \le \frac{2h}{3L}$
