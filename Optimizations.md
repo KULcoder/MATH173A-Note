@@ -219,7 +219,7 @@ $$
 ##### Analysis for general quadratics on GD
 
 $$
-||x^{(t+1)} - x^*|| \le \max \{1-\mu \lambda_\min, \mu\lambda_\max - 1\}^t ||x^{(0)}||
+||x^{(t+1)} - x^*|| \le \max \{(1-\mu \lambda_\min, \mu\lambda_\max - 1\)}^t ||x^{(0)}||
 $$
 
 - The optimal choice: $\mu^* = \frac{2}{\lambda_\max + \lambda_\min}$
