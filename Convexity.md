@@ -84,7 +84,8 @@ $$
 
 ## Strongly Convex Functions
 
-A function is **strongly convex** if $\exist c >0$ such that $\forall x, y \in \mathbb R^d$:
+A function is **strongly convex** if exists $c >0$ such that $\forall x, y \in \mathbb R^d$:
+
 $$
 F(y) \ge F(x) + \nabla F(x)^T(y-x) + \frac{1}{2} c||y-x||^2
 $$
@@ -92,6 +93,7 @@ $$
 #### Equivalent Condition
 
 A function if c-strongly convex for
+
 $$
 0 < c \le \min_x \{\lambda_\min(\nabla^2f(x))\}
 $$
