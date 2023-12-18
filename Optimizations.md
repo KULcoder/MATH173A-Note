@@ -329,6 +329,6 @@ For any $x^{(0)}$ with conjugate vectors, CG method guaranteed to converge to $x
   - $\alpha_t = \frac{r_t^T r_t}{p_t^TAp_t}$
   - $x^{(t+1)} = x^{(t)} + \alpha_t p_t$
   - $r_{t+1} = r_t + \alpha_t Ap_t$
-  - $\beta _{t+1} = \frac{r_{t+1}^T r_{t+1}}{r_t^Tr_t}$
+  - $\beta \_{t+1} = \frac{r_{t+1}^T r_{t+1}}{r_t^Tr_t}$
   - $p_{t+1} = -r_{t+1} + \beta_{t+1}p_t$
 
